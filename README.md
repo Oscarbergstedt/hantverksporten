@@ -14,8 +14,11 @@ För att börja kunna använda hemsidan behövs bara en registrering.
 
 Ingen installation krävs. Allt drivs via webbportalen.
 
+##Bidra
+Alla bidrag till av hjälpa framtagandet av webbportalen är varmt välkomnande, skicka ett meddelande under "kontakta oss".
 
-## License
+##Licens
+Detta projekt är licensierat under MIT License - se LICENSE filen nedan för detaljer.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ [LICENSE](LICENSE)
 
