@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HANTVERKSPORTEN_8E490 }}
-          projectId: hantverksporten-8e490
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HANTVERKSPORTEN_2025 }}
+          projectId: hantverksporten-2025

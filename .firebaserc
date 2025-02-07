@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "hantverksporten-8e490"
-  }
+    "default": "hantverksporten-c26cf",
+    "hantverksporten-c26cf": "hantverksporten-c26cf"
+  },
+  "targets": {},
+  "etags": {}
 }
