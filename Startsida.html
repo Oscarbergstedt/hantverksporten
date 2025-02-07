@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hantverksporten</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Hantverksporten - Din lokala hjälpreda</h1>
+        <nav>
+            <a href="Startsida.html" class="nav-link">Hem</a>
+            <a href="Komigang.html" class="nav-link">Kom igång</a>
+            <a href="varafunktioner.html" class="nav-link">Våra funktioner</a>
+            <a href="kontakta-oss.html" class="nav-link">Kontakta oss</a>
+            <a href="#" id="login-btn" class="login-btn" onclick="showForm('login')">Logga in</a>
+            <a href="#" id="logout-btn" class="login-btn" style="display: none;" onclick="logoutUser()">Logga ut</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hitta lokala kunder eller hantverkare</h1>
+        <p>Skapa konto eller logga in för att komma igång!</p>
+    </section>
+
+    <div class="process-container">
+        <div class="step">
+            <img src="images/map_1.png" alt="Registrera">
+            <p>Hitta kund eller hantverkare</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <img src="images/customers_2.png" alt="Kontakt">
+            <p>Kontakt och urval</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <img src="images/openrequest_5.png" alt="Offert">
+            <p>Offertförfrågan</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <img src="images/deal_2.png" alt="Godkännande">
+            <p>Offerthantering och godkännande</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <img src="images/worksymbol_7.png" alt="Arbete">
+            <p>Följ arbetet</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <img src="images/Payment_8.png" alt="Betalning">
+            <p>Genomgång och betalning</p>
+        </div>
+    </div>
+
+    <!-- Registreringsformulär -->
+    <section id="register" class="form-section" style="display: none;">
+        <form id="registerForm">
+            <h3>Registrering</h3>
+            <label>
+                <input type="radio" name="userType" value="customer" checked> Jag är kund
+            </label>
+            <label>
+                <input type="radio" name="userType" value="contractor"> Jag är hantverkare
+            </label>
+            <input type="email" id="register-email" placeholder="E-postadress" required>
+            <input type="password" id="register-password" placeholder="Lösenord" required>
+            <button type="button" onclick="registerUser()">Registrera</button>
+        </form>
+    </section>
+
+    <!-- Inloggningsformulär -->
+    <section id="login" class="form-section">
+        <form id="loginForm">
+        <h3>Logga in</h3>
+        <input type="email" id="login-email" placeholder="E-postadress" required>
+        <input type="password" id="login-password" placeholder="Lösenord" required>
+        <button type="button" onclick="loginUser()">Logga in</button>
+        <p>Har du inget konto? <a href="#" onclick="showForm('register')">Registrera dig här</a></p>
+        </form>
+    </section>
+
+    <!-- Välkomstsida (bara synlig efter inloggning) -->
+    <section id="welcome" class="form-section" style="display: none;">
+        <h3>Välkommen!</h3>
+        <p>Du är nu inloggad.</p>
+    </section>
+
+    <!-- Profiluppdatering (bara synlig för hantverkare) -->
+    <section id="contractor-profile" class="form-section" style="display: none;">
+    <h3>Fyll i din profil</h3>
+    <input type="text" id="contractor-name" placeholder="Företagsnamn" required>
+    <input type="text" id="contractor-phone" placeholder="Telefonnummer" required>
+    <input type="text" id="contractor-address" placeholder="Verksamhetsadress" required>
+    <button type="button" onclick="updateContractorProfile()">Spara profil</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hantverksporten. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

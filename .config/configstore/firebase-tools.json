@@ -1,0 +1,37 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1738864809386
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112679911989970572484",
+		"email": "hantverksporten142@gmail.com",
+		"email_verified": true,
+		"at_hash": "hQ6q03WfjX2X_iCatL2igA",
+		"iat": 1738864852,
+		"exp": 1738868452
+	},
+	"tokens": {
+		"expires_at": 1738872716392,
+		"refresh_token": "1//0cdM2kjSAlnQzCgYIARAAGAwSNwF-L9IriuQOHiSGCcPyWufEz6XmsOiJsWhTA5xeJlHaXn6jZE7kKyC1dMri5pVQw3rNh2O7Xsk",
+		"scopes": [],
+		"access_token": "ya29.a0AXeO80S1kWLyjR5q75VIvMlsMcPbsxSydMizVLHes7v9AgqKQeMnpOQa55rfJHoBZgd3gRxvybBqDty3-VzfQa-t2nP7OpCK0Bcqy28NhjigwsDnQHDEYb4esoES4WJMy8lD9y-kBoJHWNWEAGDp2m5KMWoYWa-EjUzaU9mBOnYB1waCgYKASoSARESFQHGX2MiZIjO_xwUxXGeH7filQPVfQ0181",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlYzUzNGZhNWI4Y2FjYTIwMWNhOGQwZmY5NmI1NGM1NjIyMTBkMWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyNjc5OTExOTg5OTcwNTcyNDg0IiwiZW1haWwiOiJoYW50dmVya3Nwb3J0ZW4xNDJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiIzVGxnSVpQdFRlUWs5Y1hvdFhnOEJBIiwiaWF0IjoxNzM4ODY5MTE3LCJleHAiOjE3Mzg4NzI3MTd9.lqYTM1vhyJBr2eDOBGfUT9JyWWbZuDAE15hD7uz6u5NN-gQ3aOU5PFfZ4OE4pPooaFIQm35qwpm_kcB0gFstVOST2SLFMd-YDlx5T9y34z8OghMvMCmZstLjG6bNtjfdA1zmjpwXwUH6Ow8qOChVGmIVcB8N0LL-a1pziW1-drIF4V01xMIq2nEdCNagntxd14HV-tCw96vexNoB-VSYWM9eWP_VnB4N5MdhrieXUfrcqlVi9kMdVgEzTVQ2tK3iEfudxZ0qkjcmBEOh4Qg4C8f1A62-nLs7szm5UyaZFPblvE0njMGcd_9fBWCwihvxMkT9kVgvo-RAAXjTQ7WWVA"
+	},
+	"activeProjects": {
+		"C:\\Users\\oscar": "hantverksporten-8e490"
+	}
+}
